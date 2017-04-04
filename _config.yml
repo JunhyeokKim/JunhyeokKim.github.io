@@ -5,7 +5,7 @@ permalink:           pretty
 -relative_permalinks: true
 # Setup
 title:               GeekHub
-tagline:              '내블로그다'
+tagline:              '내 블로그다'
 description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
 url:                 http://lanyon.getpoole.com
 baseurl:             '/JunhyeokKim.github.io'
@@ -19,4 +19,16 @@ author:
 
 # Custom vars
 version:             1.0.0
+
+collections:
+  tags:
+    output: true
+    permalink: /tags/:path/
+    
+defaults:
+  - scope:
+      path: ''
+      type: tags
+    values:
+      layout: tag
 
