@@ -1,5 +1,5 @@
 ---
 name: opensource
-title: ¿ÀÇÂ¼Ò½º
+title: wowow
 image: /files/covers/opensource.jpg
 ---
