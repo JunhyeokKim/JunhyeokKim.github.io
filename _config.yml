@@ -10,7 +10,7 @@ description:         'A reserved <a href="http://jekyllrb.com" target="_blank">J
 url:                 http://lanyon.getpoole.com
 baseurl:             '/JunhyeokKim.github.io'
 paginate:            10
-
+encoding: UTF-8
 # About/contact
 author:
   name:              Mark Otto
